@@ -12,4 +12,4 @@ class CinemaSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Cinema
-        fields = ['models', 'city', 'movies']
+        fields = ['name', 'city', 'movies']
