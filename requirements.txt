@@ -1,4 +1,4 @@
-asgiref==3.7.2
+﻿asgiref==3.7.2
 attrs==19.3.0
 Django==4.2.4
 django-extensions==3.2.3
