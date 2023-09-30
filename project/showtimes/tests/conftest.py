@@ -7,7 +7,7 @@ from rest_framework.test import APIClient
 
 from movielist.models import Person
 from movielist.tests.utils import create_fake_movie
-from showtimes.tests.utils import create_fake_cinema
+from .utils import create_fake_cinema
 
 sys.path.append(os.path.dirname(__file__))
 faker = Faker("pl_PL")
